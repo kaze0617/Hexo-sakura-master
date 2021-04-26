@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="\test.css">
+<div class="Title">
+    <p>我的课程表</p>
+</div>
+
+<body>
+    <div class="Content">
+        <div class="TopLine"></div>
+        <div class="Week">
+            <div>
+                <li class="fl">周一</li>
+                <li class="fl">周二</li>
+                <li class="fl">周三</li>
+                <li class="fl">周四</li>
+                <li class="fl">周五</li>
+                <li class="fl">周六</li>
+                <li class="fl">周日</li>
+            </div>
+        </div>
+        <div class="Source">
+            <!--       节数-->
+            <div class="Num fl">
+                <div>
+                    <div><a>1</a></div>
+                    <div><a>2</a></div>
+                    <div><a>3</a></div>
+                    <div><a>4</a></div>
+                    <div><a>5</a></div>
+                    <div><a>6</a></div>
+                    <div><a>7</a></div>
+                    <div><a>8</a></div>
+                    <div><a>9</a></div>
+                    <div><a>10</a></div>
+                    <div><a>11</a></div>
+                </div>
+            </div>
+            <!--     星期一课程信息-->
+            <div class="Mon fl">
+                <div class="KeCheng">
+                    <div class="YingyuBg">
+                        <a>大学英语</a>
+                    </div>
+                    <div style="border: none;box-shadow: none;width: 106px;height: 158px;"></div>
+                    <div class="CBg">
+                        <a>程序设计基础</a>
+                    </div>
+                    <div style="border: none;box-shadow: none;width: 106px;height: 158px;"></div>
+                    <div class="Daxueshengzhiyeguihua">
+                        <a>大学生职业规划</a>
+                    </div>
+                </div>
+            </div>
+            <!--     星期二课程信息-->
+            <div class="Tue fl">
+                <div class="KeCheng">
+                    <div class="CBg">
+                        <a>程序设计基础</a>
+                    </div>
+                    <div class="xianxingdaishu">
+                        <a>线性代数</a>
+                    </div>
+                    <div class="zhongguojinxiandailishi">
+                        <a>中国近现代史纲要</a>
+                    </div>
+                </div>
+            </div>
+            <!--     星期三课程信息-->
+            <div class="Wed fl">
+                <div class="KeCheng">
+                    <div style="border: none;box-shadow: none;width: 106px;height: 158px;"></div>
+                    <div class="TiyuBg">
+                        <a>大学体育</a>
+                    </div>
+                    <div class="feibenzhou">
+                        <a>[非本周]中国近现代史纲要</a>
+                    </div>
+                    <div class="xianxingdaishu">
+                        <a>线性代数</a>
+                    </div>
+                </div>
+            </div>
+            <!--     星期四课程信息-->
+            <div class="Thu fl">
+                <div class="KeCheng">
+                    <div class="GaodengshuxueBg">
+                        <a>高等数学</a>
+                    </div>
+                    <div class="CBg">
+                        <a>程序设计基础</a>
+                    </div>
+                </div>
+            </div>
+            <!--     星期五课程信息-->
+            <div class="Fri fl">
+                <div class="KeCheng">
+                    <div class="GaodengshuxueBg">
+                        <a>高等数学</a>
+                    </div>
+                    <div class="YingyuBg">
+                        <a>大学英语</a>
+                    </div>
+                    <div class="kejifazhanyuxuekezhuanye">
+                        <a>科技发展与学科专业论</a>
+                    </div>
+                </div>
+            </div>
+            <!--     星期六课程信息-->
+            <div class="Sat fl">
+                <div class="KeCheng">
+                </div>
+            </div>
+            <!--     星期日课程信息-->
+            <div class="Sun fl">
+                <div class="KeCheng">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<style>
+    body {
+        margin: 0% auto;
+        padding: 0;
+        background: #fff;
+        text-align: center;
+    }
+
+    body>div {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    div,
+    form,
+    div,
+    ol,
+    li,
+    span,
+    p,
+    dl,
+    dt,
+    dd,
+    img {
+        margin: 0;
+        padding: 0;
+        border: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 0;
+        padding: 0;
+        font-size: 12px;
+        font-weight: normal;
+    }
+
+    div,
+    ol,
+    li {
+        list-style: none
+    }
+
+    /*清除列表默认样式*/
+    /*设置浮动*/
+    .fl {
+        float: left
+    }
+
+    /*课程背景颜色*/
+    .GaodengshuxueBg {
+        background-color: #ffd700;
+    }
+
+    .TiyuBg {
+        background-color: #ffa500;
+    }
+
+    .CBg {
+        background-color: #7896f0;
+    }
+
+    .xianxingdaishu {
+        background-color: #90ee90;
+    }
+
+    .zhongguojinxiandailishi {
+        background-color: #6a5acd;
+    }
+
+    .Daxueshengzhiyeguihua {
+        background-color: #ff69b4;
+    }
+
+    .YingyuBg {
+        background-color: #7cfc00;
+    }
+
+    .kejifazhanyuxuekezhuanye {
+        background-color: #87ceeb;
+    }
+
+    .content {
+        width: 800px;
+        height: 1024px;
+        margin: 0 auto;
+    }
+
+    .feibenzhou {
+        background-color: rgb(180, 180, 180);
+    }
+
+    /*设置标题CSS规则*/
+    .Title {
+        padding-top: 35px;
+        margin: 0 auto;
+    }
+
+    .Title p {
+        font-size: 40px;
+        font-family: 微软雅黑;
+        color: black;
+    }
+
+    /*设置星期CSS规则*/
+    .TopLine {
+        width: 830px;
+        height: 4px;
+        background-color: #d2d2d2;
+        margin-top: 30px;
+    }
+
+    .Week {
+        width: 870px;
+        height: 58px;
+        background-color: #fff;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
+    }
+
+    .Week div {
+        padding-left: 60px;
+    }
+
+    .Week div li {
+        font-family: 微软雅黑;
+        font-size: 26px;
+        color: #333;
+        text-align: center;
+        width: 110px;
+        line-height: 56px;
+    }
+
+    /*设置节次CSS规则*/
+    .Source {
+        width: 800px;
+        height: 1000px;
+        margin-top: 3px;
+        background-color: #fff;
+    }
+
+    .Num {
+        width: 60px;
+        height: 858px;
+        margin-top: 1px;
+        background-color: #fff;
+        filter: alpha(opacity=60);
+        opacity: 0.6;
+    }
+
+    .Num div a {
+        font-family: 微软雅黑;
+        font-size: 26px;
+        color: #333;
+        width: 60px;
+        height: 81px;
+        line-height: 81px;
+        text-align: center;
+    }
+
+    /*设置课程CSS规则*/
+    .KeCheng div:hover {
+        /* box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+        -webkit-box-shadow: 0px 3px 3px #c8c8c8;
+        -moz-box-shadow: 0px 3px 3px #c8c8c8;
+        box-shadow: 0px 3px 3px #c8c8c8;
+    }
+
+    .KeCheng div {
+        border-radius: 15px;
+        padding: 4px;
+        margin: 2px;
+    }
+
+    .KeCheng a {
+        font-family: 微软雅黑;
+        color: #fff;
+        font-size: 20px;
+        width: 98px;
+        height: 150px;
+        display: -webkit-box;
+        -webkit-box-align: center;
+        -webkit-box-pack: center;
+    }
+
+    /*翻转动画*/
+</style>

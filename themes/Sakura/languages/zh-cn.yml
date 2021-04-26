@@ -1,0 +1,74 @@
+home: 首页
+archives: 文章归档
+about: 关于作者
+categories: 分类
+series: 系列文章
+search: 搜索
+searchPlaceHolder: 请输入关键字
+tags: 标签
+tagcloud: 标签云
+video: 视频资源
+help: 关于本站
+links: 友情链接
+photo: 图集
+book: 悦读
+music: 音乐
+cloud: 资源
+prev: <i class="iconfont icon-back"></i>
+next: <i class="iconfont icon-right"></i>
+comment: 留言
+page: 第 %d 页
+recent_posts: 最新文章
+newer: 上一篇
+older: 下一篇
+share: 分享
+theme_by: Theme by
+rss_feed: RSS Feed
+category: Category
+tag: Tag
+connect: '联系我们'
+post_total_count: 嗯，目前共计%d篇文章
+read_more: '阅读全文'
+contents: 文章目录
+
+none: 无
+insight:
+    hint: '请输入关键词...'
+    posts: '文章'
+    pages: '页面'
+    categories: '分类'
+    tags: '标签'
+    untitled: '(无标题)'
+
+#category
+技术:
+    zh: 野生技术协会
+    en: Geek – Only for Love
+    img: https://cdn.jsdelivr.net/gh/kaze0617/cdn@2.3/images/banner/coding.jpg
+随笔:
+    zh: 随笔
+    en: Essay
+    img: https://cdn.jsdelivr.net/gh/kaze0617/cdn@2.3/images/banner/writing.jpg
+支持:
+    zh: 支持列表
+    en: Support List
+    img: https://cdn.jsdelivr.net/gh/kaze0617/cdn@2.3/images/banner/hackintosh.jpg
+Java:
+    zh: Java
+    en: Java
+    img: https://cdn.jsdelivr.net/gh/kaze0617/image-hosting@master/20210425/learning.jpg
+# 镜像:
+#     zh: 镜像下载
+#     en: 
+#     img: 
+# 工具:
+#     zh: 工具
+#     en: 
+#     img: 
+# 完善:
+#     zh: 最后的完善
+#     en: 
+#     img: 
+# #tag
+悦读:
+    img: https://cdn.jsdelivr.net/gh/kaze0617/cdn@2.3/images/banner/reading.jpg
